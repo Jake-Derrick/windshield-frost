@@ -1,0 +1,32 @@
+{
+  "name": "windshield-frost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake-Derrick/windshield-frost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jake-Derrick/windshield-frost/issues"
+  },
+  "homepage": "https://github.com/Jake-Derrick/windshield-frost#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.0"
+  }
+}
